@@ -1,9 +1,12 @@
-#!/bin/bash
+#! /bin/bash
 ############################################################################
 # Script Name: awsMFA
 # Author: Lance Pu (contact@lancepu.dev)
 # Purpose: Generates a profile authenticated with MFA for AWS CLI
-# Usuage: bash awsMFA.sh arg1(required) arg2(required)
+# Usuage: bash awsMFA.sh arg1(required) arg2(required) 
+#         OR
+#         chmod +x awsMFA.sh
+#         ./awsMFA.sh
 # Arguments
 #   Arg1: Specifies the name of a profile that will contain the accessKey,
 #         Secret and Session_Token after MFA authentication
